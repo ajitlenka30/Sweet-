@@ -121,7 +121,7 @@ vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
 camera.disable_zsl_mode=1
-persist.vendor.camera.perflock.enable=0 
+persist.vendor.camera.perflock.enable=0
 
 # Dalvik
 dalvik.vm.systemuicompilerfilter=speed
@@ -129,7 +129,6 @@ dalvik.vm.systemuicompilerfilter=speed
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
-
 
 # Dexopt
 pm.dexopt.first-boot=quicken
@@ -212,12 +211,12 @@ persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
 
 # Fling
-ro.min.fling_velocity=160 
+ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
-ro.max.fling_velocity=20000 
-ro.vendor.qti.cgroup_follow.enable=true 
-persist.vendor.qti.inputopts.enable=true 
-persist.vendor.qti.inputopts.movetouchslop=0.6 
+ro.max.fling_velocity=20000
+ro.vendor.qti.cgroup_follow.enable=true
+persist.vendor.qti.inputopts.enable=true
+persist.vendor.qti.inputopts.movetouchslop=0.6
 ro.qcom.adreno.qgl.ShaderStorageImageExtendedFormats=0
 persist.vendor.radio.report_codec=1
 persist.vendor.radio.vdp_on_ims_cap=1
